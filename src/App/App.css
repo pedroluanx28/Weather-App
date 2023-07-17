@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bodyApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../Images/paisagem.jpg');
+    background-position: center center;
+    background-size: cover;
+    color: rgb(255, 109, 109);
+}

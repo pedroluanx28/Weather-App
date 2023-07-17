@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bodyContainer {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 13px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    width: 400px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.titleWeatherContainer {
+    margin-bottom: 10px;
+    font-size: 1.7em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputCity {
+    width: 150%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.600);
+    margin-right: 5px;
+}
+
+.buttonCity {
+    width: 50%;
+    margin-left: 5px;
+    padding: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.600);
+    cursor: pointer;
+    transition: 400ms;
+} .buttonCity:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.responseWeather {
+    margin-top: 20px;
+    text-shadow: 0px 0px 5px black;
+}
+
+.cityName {
+    margin-bottom: 10px;
+}
+
+.weather {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
